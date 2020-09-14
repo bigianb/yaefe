@@ -10,9 +10,10 @@ I use [vcpkg](https://github.com/microsoft/vcpkg) for package management
 ### Packages
 
 After running the `bootstrap-vcpkg` script, you need to install the following packages.
+(note you'll need the x64-windows suffix as below when building 64 bit).
 
 ```
-vcpkg install sdl2
+vcpkg install sdl2:x64-windows
 ```
 
 ### Running cmake

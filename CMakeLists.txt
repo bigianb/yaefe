@@ -18,5 +18,5 @@ set(PROJECT_LIBS)
 
 find_package(SDL2 CONFIG REQUIRED)
 
-include(PrecompiledHeader)
+#include(PrecompiledHeader)
 add_subdirectory(source)
