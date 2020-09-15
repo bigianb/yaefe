@@ -7,6 +7,17 @@ Nothing to really see here yet - just experimenting
 
 I use [vcpkg](https://github.com/microsoft/vcpkg) for package management
 
+```
+> git clone https://github.com/Microsoft/vcpkg.git
+> cd vcpkg
+
+PS> .\bootstrap-vcpkg.bat
+Linux:~/$ ./bootstrap-vcpkg.sh
+
+.\vcpkg integrate install
+```
+
+
 ### Packages
 
 After running the `bootstrap-vcpkg` script, you need to install the following packages.
