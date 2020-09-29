@@ -17,6 +17,7 @@ add_definitions(-DYAEFE_VERSION="${PROJECT_Version}")
 set(PROJECT_LIBS)
 
 find_package(SDL2 CONFIG REQUIRED)
+find_package(OpenGL REQUIRED)
 
 #include(PrecompiledHeader)
 add_subdirectory(source)

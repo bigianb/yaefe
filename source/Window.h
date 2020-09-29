@@ -4,11 +4,15 @@
 class Window
 {
 public:
+    Window(){
+        window = nullptr;
+    }
+    
 	void init();
 	void render();
 	void exit();
 
 private:
-	SDL_Window* window = nullptr;
+	SDL_Window* window;
 };
 

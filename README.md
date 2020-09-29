@@ -38,3 +38,13 @@ cmake -DCMAKE_TOOLCHAIN_FILE={vcpkg_root}\scripts\buildsystems\vcpkg.cmake
 
 For convenience, you can run the `build_scripts\generate_vs2019_64.cmd` or make a copy
 and modifiy according to your needs.
+
+## MacOS building
+
+I use brew to install packages. https://brew.sh/
+
+Then after installing cmake and sdl2, you can configure with:
+
+```
+cmake -G Xcode
+```
